@@ -1,12 +1,11 @@
-const mysql=require("mysql");
+const mysql=require("mysql2");
 
 const conn=mysql.createConnection({
 host:'localhost',
-user:'Mobikart',
-password:'Mobikart@123',
-database:'mobikartdb'
-
-
+user:'root',
+password:'@Pappu1234',
+database:'mobikartdb',
+port: 5050
 });
 
 module.exports=conn;

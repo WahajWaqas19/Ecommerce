@@ -36,18 +36,13 @@
               "./dist/css/main.css",
               "./dist/css/style.css",
               "./dist/vendors/themify-icons/themify-icons.css",
-              
               "./dist/vendors/owl-carousel/owl.theme.default.min.css",
               "./dist/vendors/owl-carousel/owl.carousel.min.css",
               "./dist/vendors/linericon/style.css",
-              "./dist/vendors/nouislider/nouislider.min.css",
-              
- 
-
+              "./dist/vendors/nouislider/nouislider.min.css"
             ],
             "scripts": [
               "./node_modules/jquery/dist/jquery.js",
-              
               "./node_modules/bootstrap/dist/js/bootstrap.js",
               "./plugins/jquery/jquery.min.js",
               "./plugins/bootstrap/js/bootstrap.bundle.min.js",
@@ -59,15 +54,9 @@
               "./dist/vendors/bootstrap/bootstrap.bundle.min.js",
               "./dist/vendors/skrollr.min.js",
               "./dist/vendors/owl-carousel/owl.carousel.min.js",
-             
               "./dist/vendors/jquery.ajaxchimp.min.js",
               "./dist/vendors/mail-script.js",
               "./dist/js/main.js"
-              
-              
-              
-             
-              
             ]
           },
           "configurations": {
@@ -161,6 +150,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "ECommerceProject"
+    }
+  },
+  "defaultProject": "ECommerceProject",
+  "cli": {
+    "analytics": "01039558-df4b-4737-9b44-0cc3fae6e616"
+  }
 }
